@@ -1,0 +1,93 @@
+body
+{
+    background-color: #907AD6;
+}
+
+#appWindow
+{
+    background-color: #2C2A4A;
+    min-width: 30%;
+    max-width: 50%;
+    min-height: 500px; 
+    max-height: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 10px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+#task
+{
+    background-color: #4F518C;
+    height: 40%;
+    width: 95%;  
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:10px;
+}
+
+#inputField
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+#input
+{
+    background-color: #4F518C;
+    width: 85%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+}
+#input:focus
+{
+    border-style: none;
+    border-color: black;
+    outline: none;
+}
+#giveup
+{
+    width: 60%;
+    height: 35px;
+    margin-top: 5%;
+    background-color:#4F518C;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#giveup:active
+{
+    background-color:#3c3e6b;
+}
+#def
+{
+    padding: 15px;
+    padding-top: 0px;
+}
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.text
+{
+    color: #ebdefd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paddingTop
+{
+    padding-top: 10px;
+}
+
