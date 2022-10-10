@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="appWindow">
+    <div id="task">
+      <h1 class="center text paddingTop">Uzdevums</h1>
+      <h4 class="center text" id="def">Šis ir default teksts ( nestrādā kods )....Šis ir default teksts ( nestrādā kods
+        )....Šis ir default teksts ( nestrādā kods )....Šis ir default teksts ( nestrādā kods )....Šis ir default teksts
+        ( nestrādā kods ).... </h4>
+    </div>
+    <div class="center" id="inputField">
+      <input class="text" id="input" type="text">
+      <script>
+        var input = document.getElementById("input");
+        input.addEventListener("keydown", function (e) {
+          if (e.key === "Enter") {
+            validate(e);
+          }
+        });
+
+        function validate(e) {
+          var text = e.target.value;
+          Guess();
+        }
+      </script>
+    </div>
+    <h3 id="statuss" class="center text"></h3>
+    <hr style="margin-top:5%; width: 65%;" color="#232441   ">
+    <div id="footer" class="center">
+      <input id="giveup" value="Padoties?" style="margin-left: auto; margin-right:auto;" class="center text"
+        type="button" onclick="giveUp()">
+      <h4 id="correctAns" class="center text"></h4>
+    </div>
+  </div>
+  <div style="margin-top: -5%; margin-left: 25%;" class="text">
+    <image src="dance_cat.gif" style="height: 5%; width: 5%;">
+  </div>
+</body>
+
+</html>
+<footer>
+  <script type="text/javascript" src="script.js"></script>
+</footer>
